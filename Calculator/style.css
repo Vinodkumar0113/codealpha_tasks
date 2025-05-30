@@ -1,0 +1,91 @@
+body{
+    margin:50px;
+    width: 80%;
+    height: 90%;
+    
+}
+.container{
+    background: #000;
+    margin: 0px 0px 0px 500px;
+    width: 700px;
+    height:800px ;
+    align-items: center;
+    text-align: center;
+    border: solid black 0.6px;  
+    border-radius: 10px;
+    
+    
+
+}
+#toggle {
+    
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+.screen
+{
+   margin-left: 110px;
+
+    width: 250px;
+    height: 3vh;
+
+
+}
+.screen input{
+    font-family: 'Courier New', Courier, monospace;
+    width: 50vh;
+    height: 9vh;
+    margin: 35px 0px;
+    font-size: 4vh;
+    text-align: end;
+    border-radius: 8px;
+    
+}
+.cal
+{
+    padding: 40px;
+    /* margin: 50px; */
+    margin-top: 80px;
+}
+.nums{
+    
+    
+    
+  
+}
+.nums button
+{
+   
+    width:13vh;
+    height: 12vh;
+    margin: 0.5vh;
+    font-size: 35px;
+    background-color: rgb(53, 51, 51);
+    color: aliceblue;
+    border: none;
+    border-radius: 5vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* x, y, blur, color */
+      
+      
+}
+#ac, #c{
+    background-color: rgb(244, 89, 33);
+    color: rgb(0, 0, 0);
+}
+#equal
+{
+    background-color: blue;
+    color: white;
+}
+.nums button:hover
+{
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    transform: scale(1.1);
+}
